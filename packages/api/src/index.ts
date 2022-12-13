@@ -2,6 +2,7 @@ import {Middleware} from 'koa';
 import functions from 'firebase-functions';
 
 import app from './app';
+import router from './router';
 
 export * from './firebase'
 
@@ -21,5 +22,8 @@ const rewrite = (prefix: string): Middleware => {
 }
 
 app.use(rewrite('/api'))
+
+app.use(router.routes());
+app.use(router.allowedMethods());
 
 export const api = functions.https.onRequest(app.callback());
