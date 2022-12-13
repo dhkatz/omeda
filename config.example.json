@@ -1,0 +1,9 @@
+{
+  "datamine": {
+    "aesKey": "00000000000000000000000000000000",
+    "contentPath": "E:\\Program Files\\Epic Games\\Predecessor\\Predecessor\\Predecessor\\Content\\Paks",
+    "binaryPath": "E:\\Program Files\\Epic Games\\Predecessor\\Predecessor\\Binaries\\Win64\\PredecessorClient-Win64-Shipping.exe",
+    "mappingsPath": "E:\\Program Files\\Epic Games\\Predecessor\\Predecessor\\Predecessor\\Content\\Paks\\mappings.usmap",
+    "exportPath": "./export"
+  }
+}

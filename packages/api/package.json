@@ -1,0 +1,39 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": "16"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "tsc --build --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "firebase-admin": "^11.3.0",
+    "firebase-functions": "^4.1.0",
+    "integrify": "^4.1.1",
+    "koa": "^2.14.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa__cors": "^3.3.0",
+    "@types/koa__router": "^12.0.0",
+    "@types/supertest": "^2.0.12",
+    "firebase-functions-test": "^3.0.0",
+    "supertest": "^6.3.3"
+  },
+  "overrides": {
+    "integrify": {
+      "firebase-admin": "$firebase-admin"
+    }
+  }
+}

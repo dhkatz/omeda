@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datamine", "datamine\datamine.csproj", "{CE024393-D7F9-4324-A7D2-2CE68F6A527E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUE4Parse", "cue4parse\CUE4Parse\CUE4Parse.csproj", "{7D199FA0-052A-48F4-9A6C-6E4AADDFFC55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE024393-D7F9-4324-A7D2-2CE68F6A527E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE024393-D7F9-4324-A7D2-2CE68F6A527E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE024393-D7F9-4324-A7D2-2CE68F6A527E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE024393-D7F9-4324-A7D2-2CE68F6A527E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D199FA0-052A-48F4-9A6C-6E4AADDFFC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D199FA0-052A-48F4-9A6C-6E4AADDFFC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D199FA0-052A-48F4-9A6C-6E4AADDFFC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D199FA0-052A-48F4-9A6C-6E4AADDFFC55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

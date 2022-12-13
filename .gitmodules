@@ -1,0 +1,3 @@
+[submodule "datamine/cue4parse"]
+	path = datamine/cue4parse
+	url = https://github.com/FabianFG/CUE4Parse.git
