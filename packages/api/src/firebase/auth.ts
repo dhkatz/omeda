@@ -1,4 +1,4 @@
-import functions from 'firebase-functions';
+import * as functions from 'firebase-functions';
 
 export const authOnCreate = functions.auth.user().onCreate(async ({ email, uid}) => {
 

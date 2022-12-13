@@ -1,4 +1,4 @@
-import functions from 'firebase-functions';
+import * as functions from 'firebase-functions';
 import {getFirestore,Timestamp} from 'firebase-admin/firestore';
 
 const db = getFirestore()

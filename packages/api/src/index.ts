@@ -1,5 +1,5 @@
 import {Middleware} from 'koa';
-import functions from 'firebase-functions';
+import * as functions from 'firebase-functions';
 
 import app from './app';
 import router from './router';

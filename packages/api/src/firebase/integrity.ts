@@ -1,5 +1,5 @@
 import {getFirestore} from 'firebase-admin/firestore';
-import functions from 'firebase-functions';
+import * as functions from 'firebase-functions';
 import {integrify} from 'integrify';
 
 const db = getFirestore();
